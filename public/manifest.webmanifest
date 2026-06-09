@@ -1,0 +1,16 @@
+{
+  "name": "Banks for Bitcoin",
+  "short_name": "Banks for BTC",
+  "description": "A simple, beginner-friendly list of banks and apps that work well with Bitcoin.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#F7931A",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
