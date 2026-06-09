@@ -14,10 +14,10 @@ type Filter = "All" | Region;
 
 const Index = () => {
   useSeoMeta({
-    title: "Banks for Bitcoin — Find Bitcoin-Friendly Banks (Beginner Guide)",
+    title: "BanksforBitcoin.com — Find Bitcoin-Friendly Banks (Beginner Guide)",
     description:
       "A simple, beginner-friendly list of banks and apps that work well with Bitcoin. Find where you can safely buy Bitcoin and link your account without getting frozen.",
-    ogTitle: "Banks for Bitcoin",
+    ogTitle: "BanksforBitcoin.com",
     ogDescription:
       "Find banks and apps that work well with Bitcoin — a simple guide for newbies.",
   });

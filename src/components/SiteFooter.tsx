@@ -7,7 +7,9 @@ export function SiteFooter() {
         <div className="flex flex-col items-center gap-4 text-center">
           <div className="flex items-center gap-2">
             <LogoMark className="h-7 w-7" />
-            <span className="font-bold">Banks for Bitcoin</span>
+            <span className="font-bold">
+              BanksforBitcoin<span className="text-muted-foreground">.com</span>
+            </span>
           </div>
 
           <p className="max-w-2xl text-sm text-muted-foreground">

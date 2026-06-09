@@ -28,9 +28,12 @@ export function SiteHeader() {
           </div>
 
           <h1 className="mx-auto max-w-3xl text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
-            Banks That Work Well With{" "}
-            <span className="text-primary">Bitcoin</span>
+            Banks<span className="text-primary">for</span>Bitcoin
+            <span className="text-muted-foreground">.com</span>
           </h1>
+          <p className="mx-auto mt-3 max-w-2xl text-base font-semibold uppercase tracking-[0.15em] text-primary sm:text-lg">
+            Banks That Work Well With Bitcoin
+          </p>
 
           <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-muted-foreground sm:text-xl">
             New to Bitcoin? Skip the confusion. Here's a simple, hand-picked list

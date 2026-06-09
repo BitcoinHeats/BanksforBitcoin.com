@@ -7,7 +7,7 @@ interface LogoProps {
 }
 
 /**
- * Brand logo for Banks for Bitcoin.
+ * Brand logo for BanksforBitcoin.com.
  * A classic bank "building with columns" silhouette whose pediment carries
  * the Bitcoin ₿ symbol, paired with a two-line wordmark.
  */
@@ -35,7 +35,7 @@ export function LogoMark({ className }: { className?: string }) {
     <svg
       viewBox="0 0 64 64"
       role="img"
-      aria-label="Banks for Bitcoin logo"
+      aria-label="BanksforBitcoin.com logo"
       className={className}
       xmlns="http://www.w3.org/2000/svg"
     >

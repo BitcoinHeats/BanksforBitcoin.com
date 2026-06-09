@@ -1,6 +1,6 @@
 {
-  "name": "Banks for Bitcoin",
-  "short_name": "Banks for BTC",
+  "name": "BanksforBitcoin.com",
+  "short_name": "BanksforBitcoin",
   "description": "A simple, beginner-friendly list of banks and apps that work well with Bitcoin.",
   "start_url": "/",
   "display": "standalone",
