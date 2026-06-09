@@ -18,7 +18,8 @@ export function Logo({ className, iconOnly = false }: LogoProps) {
       {!iconOnly && (
         <span className="flex flex-col leading-none">
           <span className="text-lg font-extrabold tracking-tight sm:text-xl">
-            Banks <span className="text-primary">for</span> Bitcoin
+            Banks<span className="text-primary">for</span>Bitcoin
+            <span className="text-muted-foreground">.com</span>
           </span>
           <span className="mt-1 text-[0.65rem] font-semibold uppercase tracking-[0.2em] text-muted-foreground">
             Bitcoin-Friendly Banking
