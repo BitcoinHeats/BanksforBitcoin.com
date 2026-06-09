@@ -1,12 +1,12 @@
-import { Bitcoin } from "lucide-react";
+import { LogoMark } from "@/components/Logo";
 
 export function SiteFooter() {
   return (
     <footer className="border-t bg-muted/40">
       <div className="container mx-auto px-4 py-10">
         <div className="flex flex-col items-center gap-4 text-center">
-          <div className="flex items-center gap-2 text-primary">
-            <Bitcoin className="h-5 w-5" />
+          <div className="flex items-center gap-2">
+            <LogoMark className="h-7 w-7" />
             <span className="font-bold">Banks for Bitcoin</span>
           </div>
 
