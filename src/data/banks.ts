@@ -39,7 +39,7 @@ export const banks: Bank[] = [
     features: {
       buyBitcoin: true,
       selfCustodyFriendly: true,
-      lightning: false,
+      lightning: true,
       debitCard: true,
       noKYCHassle: true,
     },
