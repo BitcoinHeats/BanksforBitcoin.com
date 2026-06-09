@@ -27,6 +27,25 @@ export interface Bank {
  */
 export const banks: Bank[] = [
   {
+    id: "square",
+    name: "Square",
+    tagline: "Accept Bitcoin in your business",
+    description:
+      "From Block (the makers of Cash App), Square lets merchants and small businesses accept payments and tie into Bitcoin. A great on-ramp for sellers who want to start working with Bitcoin alongside everyday card payments.",
+    region: "Global",
+    website: "https://squareup.com",
+    rating: 5,
+    type: "App",
+    features: {
+      buyBitcoin: true,
+      selfCustodyFriendly: true,
+      lightning: false,
+      debitCard: true,
+      noKYCHassle: true,
+    },
+    bestFor: "Merchants and businesses getting started with Bitcoin",
+  },
+  {
     id: "cash-app",
     name: "Cash App",
     tagline: "Buy Bitcoin in a few taps",
