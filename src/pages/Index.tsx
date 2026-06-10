@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { useSeoMeta } from "@unhead/react";
+import { useSeoMeta, useHead } from "@unhead/react";
 import { Search, SearchX } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -17,9 +17,22 @@ const Index = () => {
     title: "BanksforBitcoin.com — Find Bitcoin-Friendly Banks (Beginner Guide)",
     description:
       "A simple, beginner-friendly list of banks and apps that work well with Bitcoin. Find where you can safely buy Bitcoin and link your account without getting frozen.",
-    ogTitle: "BanksforBitcoin.com",
+    ogTitle: "BanksforBitcoin.com — Banks That Work Well With Bitcoin",
     ogDescription:
-      "Find banks and apps that work well with Bitcoin — a simple guide for newbies.",
+      "A simple, beginner-friendly guide to banks and apps that let you buy Bitcoin without getting frozen.",
+    ogType: "website",
+    ogUrl: "https://banksforbitcoin.com",
+    ogImage: "https://banksforbitcoin.com/og-image.svg",
+    ogSiteName: "BanksforBitcoin.com",
+    twitterCard: "summary_large_image",
+    twitterTitle: "BanksforBitcoin.com — Banks That Work Well With Bitcoin",
+    twitterDescription:
+      "A simple, beginner-friendly guide to banks and apps that let you buy Bitcoin without getting frozen.",
+    twitterImage: "https://banksforbitcoin.com/og-image.svg",
+  });
+
+  useHead({
+    link: [{ rel: "canonical", href: "https://banksforbitcoin.com/" }],
   });
 
   const [query, setQuery] = useState("");
