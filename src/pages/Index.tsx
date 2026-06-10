@@ -22,13 +22,17 @@ const Index = () => {
       "A simple, beginner-friendly guide to banks and apps that let you buy Bitcoin without getting frozen.",
     ogType: "website",
     ogUrl: "https://banksforbitcoin.com",
-    ogImage: "https://banksforbitcoin.com/og-image.svg",
+    ogImage: "https://banksforbitcoin.com/og-image.png",
+    ogImageWidth: 1200,
+    ogImageHeight: 630,
+    ogImageType: "image/png",
+    ogImageAlt: "BanksforBitcoin.com — banks that work well with Bitcoin",
     ogSiteName: "BanksforBitcoin.com",
     twitterCard: "summary_large_image",
     twitterTitle: "BanksforBitcoin.com — Banks That Work Well With Bitcoin",
     twitterDescription:
       "A simple, beginner-friendly guide to banks and apps that let you buy Bitcoin without getting frozen.",
-    twitterImage: "https://banksforbitcoin.com/og-image.svg",
+    twitterImage: "https://banksforbitcoin.com/og-image.png",
   });
 
   useHead({
