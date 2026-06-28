@@ -7,6 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { BankCard } from "@/components/BankCard";
+import { ConsultingCTA } from "@/components/ConsultingCTA";
 import { banks, regions, type Region } from "@/data/banks";
 import { cn } from "@/lib/utils";
 
@@ -156,6 +157,9 @@ const Index = () => {
             </CardContent>
           </Card>
         </section>
+
+        {/* Consulting CTA */}
+        <ConsultingCTA />
       </main>
 
       <SiteFooter />

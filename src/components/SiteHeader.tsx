@@ -1,5 +1,9 @@
 import { Logo, LogoMark } from "@/components/Logo";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { Button } from "@/components/ui/button";
+import { Briefcase } from "lucide-react";
+
+const ZAPRITE_URL = "https://pay.zaprite.com/pl_1hOGF8dgST";
 
 export function SiteHeader() {
   return (
@@ -8,7 +12,15 @@ export function SiteHeader() {
       <div className="sticky top-0 z-50 border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto flex items-center justify-between px-4 py-3">
           <Logo />
-          <ThemeToggle />
+          <div className="flex items-center gap-2 sm:gap-3">
+            <Button asChild size="sm" className="font-semibold">
+              <a href={ZAPRITE_URL} target="_blank" rel="noopener noreferrer">
+                <Briefcase className="h-4 w-4" />
+                <span className="hidden sm:inline">Consulting</span>
+              </a>
+            </Button>
+            <ThemeToggle />
+          </div>
         </div>
       </div>
 
