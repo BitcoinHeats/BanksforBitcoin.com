@@ -58,7 +58,7 @@ export function SiteHeader() {
 
           <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-muted-foreground sm:text-xl">
             New to Bitcoin? Skip the confusion. Here's a simple, hand-picked list
-            of banks and apps that won't freeze your account for buying Bitcoin —
+            of banks and apps that won't freeze your account for buying Bitcoin,
             and make getting started easy.
           </p>
         </div>

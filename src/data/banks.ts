@@ -24,7 +24,7 @@ export interface Bank {
 /**
  * A curated list of banks and money apps that are known to work well with Bitcoin.
  * "Works well" means: they don't freeze accounts for buying crypto, allow transfers
- * to/from exchanges, or let you buy Bitcoin directly. Always do your own research —
+ * to/from exchanges, or let you buy Bitcoin directly. Always do your own research:
  * policies change and availability varies by country.
  */
 export const banks: Bank[] = [
@@ -33,7 +33,7 @@ export const banks: Bank[] = [
     name: "Peoples Reserve",
     tagline: "Bitcoin-powered finance: earn, borrow, spend",
     description:
-      "A Bitcoin-native financial platform that puts your Bitcoin to work. Buy Bitcoin in-app, earn yield through Bitcoin Bonds and Vaults, borrow against your BTC with self-repaying mortgages and lines of credit, and spend with a debit card — all without selling your assets. Collateral is secured with BitGo in a bankruptcy-remote structure.",
+      "A Bitcoin-native financial platform that puts your Bitcoin to work. Buy Bitcoin in-app, earn yield through Bitcoin Bonds and Vaults, borrow against your BTC with self-repaying mortgages and lines of credit, and spend with a debit card, all without selling your assets. Collateral is secured with BitGo in a bankruptcy-remote structure.",
     region: "Global",
     website: "https://peoplesreserve.com",
     rating: 5,
@@ -75,7 +75,7 @@ export const banks: Bank[] = [
     name: "Cash App",
     tagline: "Buy Bitcoin in a few taps",
     description:
-      "One of the easiest ways for beginners in the US to buy Bitcoin. You can buy, sell, and withdraw to your own wallet — all from a friendly mobile app.",
+      "One of the easiest ways for beginners in the US to buy Bitcoin. You can buy, sell, and withdraw to your own wallet, all from a friendly mobile app.",
     region: "USA",
     website: "https://cash.app",
     rating: 5,
@@ -222,7 +222,7 @@ export const banks: Bank[] = [
     name: "Bitwala / Nuri (legacy)",
     tagline: "European Bitcoin banking heritage",
     description:
-      "A pioneering EU Bitcoin bank concept. Its spirit lives on in newer European crypto-friendly banks — check current availability before signing up.",
+      "A pioneering EU Bitcoin bank concept. Its spirit lives on in newer European crypto-friendly banks. Check current availability before signing up.",
     region: "Europe",
     website: "https://www.bity.com",
     rating: 3,
@@ -264,7 +264,7 @@ export const banks: Bank[] = [
     name: "Relai",
     tagline: "Europe's simple Bitcoin-only app",
     description:
-      "A Swiss Bitcoin-only app focused on simplicity. Buy Bitcoin in minutes and have it sent straight to your own wallet — perfect for privacy-minded European beginners.",
+      "A Swiss Bitcoin-only app focused on simplicity. Buy Bitcoin in minutes and have it sent straight to your own wallet, perfect for privacy-minded European beginners.",
     region: "Switzerland",
     website: "https://relai.app",
     rating: 5,
@@ -285,7 +285,7 @@ export const banks: Bank[] = [
     name: "Bull Bitcoin",
     tagline: "Canada's non-custodial Bitcoin exchange",
     description:
-      "A Canadian Bitcoin-only service that never holds your coins — every purchase goes straight to your wallet. Strong self-custody ethos.",
+      "A Canadian Bitcoin-only service that never holds your coins; every purchase goes straight to your wallet. Strong self-custody ethos.",
     region: "Canada",
     website: "https://www.bullbitcoin.com",
     rating: 5,

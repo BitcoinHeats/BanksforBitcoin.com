@@ -17,10 +17,10 @@ type Filter = "All" | Region;
 
 const Index = () => {
   useSeoMeta({
-    title: "BanksforBitcoin.com — Find Bitcoin-Friendly Banks (Beginner Guide)",
+    title: "BanksforBitcoin.com: Find Bitcoin-Friendly Banks (Beginner Guide)",
     description:
       "A simple, beginner-friendly list of banks and apps that work well with Bitcoin. Find where you can safely buy Bitcoin and link your account without getting frozen.",
-    ogTitle: "BanksforBitcoin.com — Banks That Work Well With Bitcoin",
+    ogTitle: "BanksforBitcoin.com: Banks That Work Well With Bitcoin",
     ogDescription:
       "A simple, beginner-friendly guide to banks and apps that let you buy Bitcoin without getting frozen.",
     ogType: "website",
@@ -29,10 +29,10 @@ const Index = () => {
     ogImageWidth: 1200,
     ogImageHeight: 630,
     ogImageType: "image/png",
-    ogImageAlt: "BanksforBitcoin.com — banks that work well with Bitcoin",
+    ogImageAlt: "BanksforBitcoin.com: banks that work well with Bitcoin",
     ogSiteName: "BanksforBitcoin.com",
     twitterCard: "summary_large_image",
-    twitterTitle: "BanksforBitcoin.com — Banks That Work Well With Bitcoin",
+    twitterTitle: "BanksforBitcoin.com: Banks That Work Well With Bitcoin",
     twitterDescription:
       "A simple, beginner-friendly guide to banks and apps that let you buy Bitcoin without getting frozen.",
     twitterImage: "https://banksforbitcoin.com/og-image.png",
@@ -84,7 +84,7 @@ const Index = () => {
               name: "What is self-custody and why does it matter?",
               acceptedAnswer: {
                 "@type": "Answer",
-                text: "Self-custody means moving your Bitcoin to a wallet you control, rather than leaving it on an exchange. This gives you true ownership — no one can freeze or take your funds. The most important rule: keep your recovery phrase safe and private.",
+                text: "Self-custody means moving your Bitcoin to a wallet you control, rather than leaving it on an exchange. This gives you true ownership; no one can freeze or take your funds. The most important rule: keep your recovery phrase safe and private.",
               },
             },
             {
@@ -204,7 +204,7 @@ const Index = () => {
               </div>
               <p className="text-sm text-foreground/80 mb-4 leading-relaxed">
                 Our full step-by-step guide walks you through buying your first
-                Bitcoin and moving it to your own wallet — explained in plain
+                Bitcoin and moving it to your own wallet, explained in plain
                 English, no jargon.
               </p>
               <Button asChild className="font-semibold">
@@ -224,7 +224,7 @@ const Index = () => {
         <section className="mx-auto mt-12 max-w-3xl text-center">
           <SocialShare
             url="https://banksforbitcoin.com"
-            title="BanksforBitcoin.com — Banks That Work Well With Bitcoin"
+            title="BanksforBitcoin.com: Banks That Work Well With Bitcoin"
             className="justify-center"
           />
           <p className="mt-3 text-xs text-muted-foreground">

@@ -63,7 +63,7 @@ export function SocialShare({ url, title, className }: SocialShareProps) {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
-      // Clipboard may be unavailable (e.g. non-secure context) — silently ignore.
+      // Clipboard may be unavailable (e.g. non-secure context): silently ignore.
     }
   };
 
